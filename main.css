@@ -1,0 +1,84 @@
+/*may need <p> to set max height p{max-height: 50px}*/ 
+/* url(http://www.sunnyneo.com/userlookups/UL_acezafara_fixed.png) fixed bottom center no-repeat, */
+
+body { 
+        background: 
+        url(https://marvelheroes.com/sites/default/files/header-heroes.png) fixed bottom center no-repeat,
+      	url(https://images5.alphacoders.com/663/663098.jpg) repeat;
+        z-index: 10;
+        background-size: 60% auto;
+        background-position: 100px 50px;
+        
+  }
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: White
+}
+
+
+/*-------------------------------FOOTER--------------------------*/
+
+#footer {
+    position: fixed;
+    z-index: -3;
+    bottom: 0;
+    width: 100%;
+    
+}
+img {
+    position:center fixed;
+    opacity: 0.8;
+    background-size: 1600px auto;
+   filter: alpha(opacity=50);
+}
+
+
+#content {
+    background: #D0E5FF;
+    padding: 20px;
+    color: #00214B;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.8;
+    z-index: 5;
+}
+#footer {
+    background: #0070FF;
+     z-index: 0;
+    line-height: 2, fixed;
+    text-align: center;
+    color: #042E64;
+/*    fillopacity: 0.2 */
+       opacity: 0.9;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #84BAFF;
+    box-shadow: 0 0 15px #00214B;
+
+
+/*  GRID OF FOUR  */
+
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}

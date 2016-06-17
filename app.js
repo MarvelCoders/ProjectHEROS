@@ -13,7 +13,7 @@ console.log(response);
     var trainStations = '';
 
         for(var i = 0; i< response.length; i++) {      //response is what I defined if response of the platform name is equal to a particular name then do something)
-          if(response[i].platformName === "Eastbound - Platform 2") {
+          if(response[i].platformName === "Westbound  - Platform 2") {
             trainStations += "<li>" + 'EastBound Trains from Kings Cross' + response[i].timeToStation + "</li>";    // Then add blank string to a list and the response of
           }
         }
