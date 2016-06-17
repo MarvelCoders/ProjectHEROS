@@ -1,14 +1,14 @@
-/*may need <p> to set max height p{max-height: 50px}*/ 
+/*may need <p> to set max height p{max-height: 50px}*/
 /* url(http://www.sunnyneo.com/userlookups/UL_acezafara_fixed.png) fixed bottom center no-repeat, */
 
-body { 
-        background: 
+body {
+        background:
         url(https://marvelheroes.com/sites/default/files/header-heroes.png) fixed bottom center no-repeat,
-      	url(https://images5.alphacoders.com/663/663098.jpg) repeat;
+      	url(https://images5.alphacoders.com/663/663098.jpg) center repeat;
         z-index: 10;
         background-size: 60% auto;
         background-position: 100px 50px;
-        
+
   }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
     z-index: -3;
     bottom: 0;
     width: 100%;
-    
+
 }
 img {
     position:center fixed;

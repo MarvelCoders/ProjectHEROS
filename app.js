@@ -1,3 +1,10 @@
+document.getElementById('button').addEventListener("click",function(e)
+{e.preventDefault();
+   document.getElementsByClassName('container2')[0].classList.add('toggle');
+    //getNasaImage();
+    getTFLData();
+});
+
 function getTFLData () {
 
   var TFLRequest = new XMLHttpRequest();
@@ -13,16 +20,16 @@ console.log(response);
     var trainStations = '';
 
         for(var i = 0; i< response.length; i++) {      //response is what I defined if response of the platform name is equal to a particular name then do something)
-          if(response[i].platformName === "Westbound  - Platform 2") {
-            trainStations += "<li>" + 'EastBound Trains from Kings Cross' + response[i].timeToStation + "</li>";    // Then add blank string to a list and the response of
+          if(response[i].platformName === "Westbound - Platform 2") {
+            trainStations += "<li>" + 'Westbound Trains from Kings Cross' + response[i].timeToStation + "</li>";    // Then add blank string to a list and the response of
           }
         }
 var directions = '';
         for(var j = 0; j < response.length; j++) {
 console.log(j);
-          if(response[j].platformName === "Eastbound - Platform 2") {
+          if(response[j].platformName === "Westbound - Platform 2") {
             console.log(j)
-            directions += "<li>" + '(towards) EastBound Trains from Kings Cross' + response[j].towards + "</li>";
+            directions += "<li>" + '(towards) Westbound Trains from Kings Cross' + response[j].towards + "</li>";
           }
         }
 
