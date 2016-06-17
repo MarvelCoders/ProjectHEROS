@@ -19,7 +19,7 @@ h1 {
 
 }
 
-/*.solid-color-spin {
+.solid-color-spin {
 background-image: url("http://vignette4.wikia.nocookie.net/marvelcinematicuniverse/images/c/cd/2071_the-avengers-prev.png/revision/latest?cb=20120702100042.jpg");
 border-radius: 50%;
 z-index: -1;
@@ -35,7 +35,7 @@ animation: spin 50s linear infinite
 from {transform:rotate(0deg);}
 to {transform:rotate(360deg);}
 
-.image1{
+/*.image1{
   position:center fixed;
   opacity: 0.8;
   background-size: 1600px auto;
