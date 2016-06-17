@@ -60,25 +60,4 @@ img {
     font-weight: bold;
     text-shadow: 0 1px 0 #84BAFF;
     box-shadow: 0 0 15px #00214B;
-
-
-/*  GRID OF FOUR  */
-
-.span_4_of_4 {
-	width: 100%;
-}
-.span_3_of_4 {
-	width: 74.6%;
-}
-.span_2_of_4 {
-	width: 49.2%;
-}
-.span_1_of_4 {
-	width: 23.8%;
-}
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
