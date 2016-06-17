@@ -1,6 +1,8 @@
 /*may need <p> to set max height p{max-height: 50px}*/
 /* url(http://www.sunnyneo.com/userlookups/UL_acezafara_fixed.png) fixed bottom center no-repeat, */
-
+* {
+  color: white;
+}
 body {
         background:
         url(https://marvelheroes.com/sites/default/files/header-heroes.png) fixed bottom center no-repeat,
@@ -14,8 +16,32 @@ body {
 h1 {
 	font-size: 50px;
 	text-align: center;
-	color: White
+
 }
+
+/*.solid-color-spin {
+background-image: url("http://vignette4.wikia.nocookie.net/marvelcinematicuniverse/images/c/cd/2071_the-avengers-prev.png/revision/latest?cb=20120702100042.jpg");
+border-radius: 50%;
+z-index: -1;
+position: top right fixed;
+width: 65%;
+margin-left: 65%;
+margin-top: -200px;
+height: 800px;
+background-size: 95%;
+animation: spin 50s linear infinite
+}
+@keyframes spin {
+from {transform:rotate(0deg);}
+to {transform:rotate(360deg);}
+
+.image1{
+  position:center fixed;
+  opacity: 0.8;
+  background-size: 1600px auto;
+ filter: alpha(opacity=50);
+ width: 50%;}*/
+
 
 
 /*-------------------------------FOOTER--------------------------*/
@@ -27,12 +53,33 @@ h1 {
     width: 100%;
 
 }
-img {
+
+.container2 {
+    margin: 300px 100px 30px 100px;
+    background-color: rgba(255, 255, 255, 0.38);
+    border: none;
+    border-radius: 25px;
+    filter: alpha(opacity=60);  /*For IE8 and earlier */
+    opacity: 0;
+  }
+
+  .toggle{
+
+    opacity: 1;
+    webkit-transition: opacity 1s;
+    transition: opacity 1s;
+
+  }
+
+
+
+/*img {
     position:center fixed;
     opacity: 0.8;
     background-size: 1600px auto;
    filter: alpha(opacity=50);
-}
+   width: 50%;
+}*/
 
 
 #content {
