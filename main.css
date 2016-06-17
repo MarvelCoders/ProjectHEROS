@@ -24,10 +24,10 @@ background-image: url("http://vignette4.wikia.nocookie.net/marvelcinematicuniver
 border-radius: 50%;
 z-index: -1;
 position: top right fixed;
-width: 65%;
+width: 30%;
 margin-left: 65%;
-margin-top: -200px;
-height: 800px;
+margin-top: -40px;
+height: 390px;
 background-size: 95%;
 animation: spin 50s linear infinite
 }
@@ -100,7 +100,7 @@ to {transform:rotate(360deg);}
     line-height: 2, fixed;
     text-align: center;
     color: #042E64;
-/*    fillopacity: 0.2 */
+    fillopacity: 0.2 
        opacity: 0.9;
     font-size: 30px;
     font-family: sans-serif;
